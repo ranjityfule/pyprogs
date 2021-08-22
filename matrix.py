@@ -10,3 +10,7 @@ def sum(L=None):
     return L[0]
   else:
     return L[0] + sum(L[1:])
+
+def logs():
+  print('*'*100)
+  
