@@ -1,3 +1,5 @@
 import matrix
 
-def 
+def test_hello():
+  assert matrix.hello() == "Hello!"
+  assert matrix.hello() == "hello!"
